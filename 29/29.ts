@@ -1,5 +1,5 @@
 
-let favorite_fruits=['banana','orange','lichee']
+let favorite_fruits:string[]=['banana','orange','lichee']
 
 for (let value of favorite_fruits){
     if(value == 'lichee'){

@@ -1,4 +1,4 @@
-//Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
+// Result of each program should be 8
 let a;
 let b;
 console.log(`Addition: ${a=4} + ${b=4} = ${a+b}\n`);

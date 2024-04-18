@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let admin = ['elen', 'zurrab', 'admin', 'hooria', 'noor'];
 // removing user from array
 for (let i = admin.length; i >= 0; i--) {
@@ -20,3 +18,4 @@ else {
         }
     }
 }
+export {};

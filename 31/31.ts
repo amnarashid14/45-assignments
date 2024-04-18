@@ -1,7 +1,7 @@
 
 
 
-let admin = ['elen', 'zurrab', 'admin', 'hooria', 'noor'];
+let admin:string[] = ['elen', 'zurrab', 'admin', 'hooria', 'noor'];
 
 
 // removing user from array

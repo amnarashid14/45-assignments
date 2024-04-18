@@ -1,6 +1,6 @@
 
-
-let countries=['America','Australia','Palestine','Iran','Europe'];
+// array of countries
+let countries:string[]=['America','Australia','Palestine','Iran','Europe'];
 
 
 //Printing each name in array one at a time 

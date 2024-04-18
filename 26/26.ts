@@ -1,5 +1,5 @@
 
-let alien_color='green';
+let alien_color:string='green';
 
 //if block
 if(alien_color === 'green'){

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let guestList = ["Saman", "Marium", "Amna"];
 let str1 = " You are Invited For Tomorrow's Event.";
 let i = 0;
@@ -27,3 +25,4 @@ guestList.splice(midInsertion, 0, "Noor"); // middle of the array
 for (let value of guestList) {
     console.log(value.concat(str1));
 }
+export {};

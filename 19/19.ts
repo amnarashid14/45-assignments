@@ -1,7 +1,7 @@
 
 
-let guestListNumbers = ["Saman", "Marium", "Amna"];
-let stringInserted = " You are Invited For Tomorrow's Event.";
+let guestListNumbers :string[]= ["Saman", "Marium", "Amna"];
+let stringInserted :string= " You are Invited For Tomorrow's Event.";
 
 let f = 0;
 

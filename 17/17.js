@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let guestList = ["Saman", "Marium", "Amna"];
 let str1 = " You are Invited For Tomorrow's Event.";
 let i = 0;
@@ -38,3 +36,4 @@ guestList.forEach(remaining => console.log(`Hey ${remaining} you are still invit
 guestList.pop();
 guestList.pop();
 console.log(guestList);
+export {};

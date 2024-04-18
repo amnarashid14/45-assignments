@@ -1,7 +1,7 @@
 
 
-let guestList = ["Saman", "Marium", "Amna"];
-let str1 = " You are Invited For Tomorrow's Event.";
+let guestList :string[]= ["Saman", "Marium", "Amna"];
+let str1:string = " You are Invited For Tomorrow's Event.";
 let i = 0;
 while (i < guestList.length) {
     console.log(guestList[i].concat(str1));
@@ -12,7 +12,7 @@ while (i < guestList.length) {
 console.log(`${guestList[1]} can't attent the event.`);
 
 //removing the person
-let newList = guestList.splice(1, 1, "Hooria");
+let newList:string[] = guestList.splice(1, 1, "Hooria");
 
 // Invites for new list
 let g = 0;
@@ -43,7 +43,7 @@ console.log("Badly two persons can be invited for the dinner with  me");
 // removing guests one by one  with a message for each
 while (guestList.length > 2) {
 
-    let removedGuest = guestList.pop();
+    let removedGuest :any= guestList.pop();
     console.log(`Hey ${removedGuest} We cant dinner together this time. But next time InshaAllah`);
 }
 

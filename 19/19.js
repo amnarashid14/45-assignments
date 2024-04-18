@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let guestListNumbers = ["Saman", "Marium", "Amna"];
 let stringInserted = " You are Invited For Tomorrow's Event.";
 let f = 0;
@@ -13,3 +11,4 @@ for (let value in guestListNumbers) {
     console.log(value + stringInserted);
 }
 console.log(`Total Number of guest that are invited: ${guestListNumbers.length}`);
+export {};

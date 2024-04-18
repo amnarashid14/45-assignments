@@ -1,5 +1,5 @@
 
-let pizza=['Malai','BBQ','Cheesy'];
+let pizza:string[]=['Malai','BBQ','Cheesy'];
 
 for(let sentence of pizza){
     console.log(`I like to eat ${sentence} pizza`);

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let favorite_fruits = ['banana', 'orange', 'lichee'];
 for (let value of favorite_fruits) {
     if (value == 'lichee') {
@@ -21,3 +19,4 @@ for (let value of favorite_fruits) {
         console.log("You don't Like this fruit");
     }
 }
+export {};

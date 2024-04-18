@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let guestList = ["Saman", "Marium", "Amna"];
 let str1 = " You are Invited For Tomorrow's Event.";
 let i = 0;
@@ -17,3 +15,4 @@ while (g < guestList.length) {
     console.log(guestList[g].concat(str1));
     g++;
 }
+export {};

@@ -3,7 +3,7 @@
 
 
 
-let age=84;
+let age:number=84;
 if (age < 2){
     console.log('You are little Child');
     

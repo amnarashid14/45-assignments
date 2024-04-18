@@ -1,6 +1,6 @@
 
- let current_users=['abc','efg','hij','klm','nop']
- let new_users=['qrs','tuv','efg','klm','wxy']
+ let current_users:string[]=['abc','efg','hij','klm','nop']
+ let new_users:string[]=['qrs','tuv','efg','klm','wxy']
 
 
 

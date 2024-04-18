@@ -45,16 +45,18 @@ console.log(kiloByte <= '943Bytes');
 
 // • Tests using "and" and "or" operators
 
-// In terms of Bits
+// ----------In terms of Bits------------------//
 let megaByte='1073741824';
 let oneKiloByte='1048576';
 
 //Using OR
 console.log('Is One MB is equal to or greater than One KB',(megaByte == oneKiloByte) || (megaByte > oneKiloByte))
 
+//using AND
 console.log('Is One KB is less than or not equal to  One MB',(oneKiloByte == megaByte) && (oneKiloByte > megaByte))
 
 // • Test whether an item is in a array
+
 
 let array :number[]=[10,45,24]
 for (let value of array){

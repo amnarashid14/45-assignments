@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let current_users = ['abc', 'efg', 'hij', 'klm', 'nop'];
 let new_users = ['qrs', 'tuv', 'efg', 'klm', 'wxy'];
 // Case-insensitive check if a username exists in an array
@@ -15,3 +13,4 @@ for (const newUsername of new_users) { // function call
         console.log(`Username ${newUsername} is available.`);
     }
 }
+export {};

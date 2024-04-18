@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let alien_color = 'green';
 //if block
 if (alien_color === 'green') {
@@ -9,3 +7,4 @@ if (alien_color === 'green') {
 else {
     console.log('You have earned 10 points ');
 }
+export {};
