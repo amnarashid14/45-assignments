@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function city_country(city, country) {
     let answer = `${city} is in ${country}`;
     return answer;
@@ -10,3 +8,4 @@ let three = city_country('Appello', 'Sham');
 console.log(one);
 console.log(two);
 console.log(three);
+export {};

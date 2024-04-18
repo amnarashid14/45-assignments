@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let magiciansName = ['Harry Houdini', 'David Copperfield', 'Criss Angel', 'David Blaine', 'Penn & Teller'];
 let orgArray = magiciansName; // without changing array 
 // without modification array 
@@ -19,3 +17,4 @@ function make_great(magiciansName) {
 // storing make_great func into var for getting output and use slice for making copyof array 
 let greatMagician = make_great(orgArray.slice());
 show_magicians(greatMagician);
+export {};

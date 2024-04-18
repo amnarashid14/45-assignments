@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 //def
 function make_album(artistName, albumTitle, numTracks) {
     let musicAlbum = {
@@ -18,3 +16,4 @@ let albumThird = make_album('Miles', 'Blu & Exile');
 console.log(albumFirst);
 console.log(albumSecond);
 console.log(albumThird);
+export {};

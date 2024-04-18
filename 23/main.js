@@ -1,6 +1,4 @@
-"use strict";
 // Conditional Tests: 
-Object.defineProperty(exports, "__esModule", { value: true });
 let umbrellaColor = 'Red';
 console.log("Is umbrellaColor == 'RED' ? I predict True ");
 console.log(umbrellaColor == 'RED'); //false
@@ -23,3 +21,4 @@ console.log("Is umbrellaColor.length <= 3? I predict True ");
 console.log(umbrellaColor.length == 3); // true length=2
 console.log("Is umbrellaColor.length == 3 ? I predict True ");
 console.log(umbrellaColor.length == 3); //true
+export {};

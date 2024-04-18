@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let sandwich;
 function makeSandwich(...sandwich) {
     // rest par syntax
@@ -11,3 +9,4 @@ function makeSandwich(...sandwich) {
 makeSandwich('breads', 'Tomato', 'Egg', 'Cucumber', 'Mayo');
 makeSandwich('Chicken', 'Ketchup');
 makeSandwich('lettuce', 'Cheese');
+export {};
